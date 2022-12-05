@@ -1,7 +1,9 @@
-import { greet } from "./utils/greet";
+import {Counter} from "./Counter";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <Counter />
+  )
 }
 
 export default App;
